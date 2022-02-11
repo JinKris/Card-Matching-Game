@@ -1,0 +1,111 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+h1, .score, .str-btn{
+    font-family: 'Gideon Roman', cursive;
+}
+
+.wrap{
+    width : 100%;
+    height: 100vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36393d;
+    
+    text-align: center;
+}
+
+.canvas { 
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+
+    width: 500px;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+.board {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap : wrap;
+
+    background-color: #ffffff;
+    width: 430px;
+    padding: 30px 30px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.str-btn{
+    margin-top: 70px;
+    font-size: 12px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.str-btn:hover{
+    color: #ffffff;
+    background-color: #36393d;
+    transition: all .2s ease;
+}
+
+img {
+    display: block;
+}
+
+.cards{
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    margin: 3px;
+    overflow: hidden; 
+}
+.front{
+    display: bloock;
+    position: relative;
+}
+
+.frontImg {
+    width: 85px;
+    height: 83px;
+    border-radius: 10px;
+    margin: 3px;
+
+    position: absolute;
+    top: 100px;
+    transition: 0.5s ease-in-out;
+
+}
+.back{
+    position: relative;
+}
+
+.backImg{
+    width: 85px;
+    height: 85PX;
+    border-radius: 10px;
+    margin: 3px;
+
+    position: absolute;
+    top:0px;
+    transition: 0.5s;
+}
+
+.top-0 {
+    top:0;
+}
+.top-50 {
+    top:58px;
+}
+
+
