@@ -97,6 +97,7 @@ function slideUp(card){
 
 //eventListener
 function start(){
+    document.querySelector('.board').setAttribute('class','board')
     strBtn.style.display='none';
     scoreTxt.innerText = `score : 0`;
     init();
